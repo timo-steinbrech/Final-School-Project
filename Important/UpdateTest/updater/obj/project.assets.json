@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows10.0.22000": {
+      "SharpZipLib/1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "Downloader/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SharpZipLib": "1.3.3"
+        },
+        "compile": {
+          "bin/placeholder/Downloader.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Downloader.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "SharpZipLib/1.3.3": {
+      "sha512": "N8+hwhsKZm25tDJfWpBSW7EGhH/R7EMuiX+KJ4C4u+fCWVc1lJ5zg1u3S1RPPVYgTqhx/C3hxrqUpi6RwK5+Tg==",
+      "type": "package",
+      "path": "sharpziplib/1.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/sharpziplib-nuget-256x256.png",
+        "lib/net45/ICSharpCode.SharpZipLib.dll",
+        "lib/net45/ICSharpCode.SharpZipLib.pdb",
+        "lib/net45/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.3.3.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
+    "Downloader/1.0.0": {
+      "type": "project",
+      "path": "../UpdateTest/Downloader.csproj",
+      "msbuildProject": "../UpdateTest/Downloader.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows10.0.22000": [
+      "Downloader >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\timo.steinbrech\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\timo.steinbrech\\source\\repos\\UpdateTest\\updater\\updater.csproj",
+      "projectName": "updater",
+      "projectPath": "C:\\Users\\timo.steinbrech\\source\\repos\\UpdateTest\\updater\\updater.csproj",
+      "packagesPath": "C:\\Users\\timo.steinbrech\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\timo.steinbrech\\source\\repos\\UpdateTest\\updater\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\timo.steinbrech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows10.0.22000"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows10.0.22000": {
+          "targetAlias": "net5.0-windows10.0.22000.0",
+          "projectReferences": {
+            "C:\\Users\\timo.steinbrech\\source\\repos\\UpdateTest\\UpdateTest\\Downloader.csproj": {
+              "projectPath": "C:\\Users\\timo.steinbrech\\source\\repos\\UpdateTest\\UpdateTest\\Downloader.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows10.0.22000": {
+        "targetAlias": "net5.0-windows10.0.22000.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.22000.23, 10.0.22000.23]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\bin\Debug\netcoreapp3.1\updater.exe
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\bin\Debug\netcoreapp3.1\updater.deps.json
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\bin\Debug\netcoreapp3.1\updater.runtimeconfig.json
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\bin\Debug\netcoreapp3.1\updater.runtimeconfig.dev.json
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\bin\Debug\netcoreapp3.1\updater.dll
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\bin\Debug\netcoreapp3.1\updater.pdb
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.csproj.AssemblyReference.cache
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.Form1.resources
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.csproj.GenerateResource.cache
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.AssemblyInfoInputs.cache
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.AssemblyInfo.cs
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.csproj.CoreCompileInputs.cache
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.dll
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.pdb
+C:\Users\timo.steinbrech\source\repos\UpdateTest\updater\obj\Debug\netcoreapp3.1\updater.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "i5fh7frUD1UZEjTHUWI5I9oBUeSBEGi5esQ3Hf9ZcSGwC8jY1/CzW58bDy36uPqyKUID57cJAbn7O7wFrFB8cw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\timo.steinbrech\\source\\repos\\UpdateTest\\UpdateTest\\Downloader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timo.steinbrech\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
+    "C:\\Users\\timo.steinbrech\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.23\\microsoft.windows.sdk.net.ref.10.0.22000.23.nupkg.sha512"
+  ],
+  "logs": []
+}
